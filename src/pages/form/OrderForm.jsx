@@ -17,7 +17,7 @@ const OrderForm = () => {
             </div>
             <button
                 className='btn btn-success col-2 col-md-1'
-                data-testId="order"
+                data-testid="order"
                 disabled={!isChecked}
             >Order</button>
         </form>

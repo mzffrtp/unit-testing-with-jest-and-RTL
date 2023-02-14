@@ -9,7 +9,7 @@ test("btn activ when checkbox clicked", async() =>{
 
     const termsCheck = screen.getByRole("checkbox", {name:/I accept the terms and conditions/i});
     const orderBtn = screen.getByText(/order/i);
-
+    
     expect (termsCheck).not.toBeChecked()
     expect(orderBtn).toBeDisabled()
 
@@ -18,4 +18,6 @@ test("btn activ when checkbox clicked", async() =>{
 
     await user.click(termsCheck)
     expect(orderBtn).toBeDisabled();
+
+   
 })

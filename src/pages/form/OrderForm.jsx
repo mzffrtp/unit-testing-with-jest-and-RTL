@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "../styles/orderform.css"
 
 
 const OrderForm = () => {
@@ -16,7 +17,7 @@ const OrderForm = () => {
                 <label htmlFor='terms'>I accept the terms and conditions</label>
             </div>
             <button
-                className='btn btn-success col-2 col-md-1'
+                className='btn btn-success col-2 col-md-1 orderBtn'
                 data-testid="order"
                 disabled={!isChecked}
             >Order</button>

@@ -10,5 +10,7 @@
         - convenient APIs (async, await)
         - regex (/RegEx/i) examples
         - state management as cart adding deleting actions were tested
+
+![](screen.gif)
     
 
